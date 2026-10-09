@@ -1,0 +1,24 @@
+# Configuración local y credenciales
+.agents/
+.aws/
+.codex/
+.env
+.env.*
+!.env.example
+
+# Entornos y cachés de Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Instrucciones y notas de trabajo locales
+AGENTS.md
+.local-notes/
